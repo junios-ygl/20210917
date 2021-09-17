@@ -1,12 +1,21 @@
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
-	int MyCash = 23432423432;
-	float HP = 100.0f;
-	char H = '\q';
+	int First = 0; 
+	int Second = 0;
+	int Sum = 0;
 
-	std::cout << "aaa" << H;
+	//cout << "첫번재 숫자를 넣어주세요. ?";
+	cin >> First;
+	//cout << "두번재 숫자를 넣어주세요. ?";
+	cin >> Second;
+
+	Sum = First + Second;
+	//cout << First << " + " << Second << " = ";
+	cout << Sum;
 
 	return 0;
 }
